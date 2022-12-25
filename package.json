@@ -1,0 +1,15 @@
+{
+  "name": "csv_parser",
+  "version": "1.0.0",
+  "description": "Reads the list of files in the specified directory, reads each .csv file using the exceljs library, searches for rows that contain the search word, and then checks if the row also contains the new search word. If it does, the row is added to an array. After all files have been processed, a new .csv file is created and the rows that contain the new search word are written to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonespm1.dev",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "exceljs": "^4.3.0"
+  }
+}
