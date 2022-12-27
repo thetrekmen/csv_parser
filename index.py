@@ -60,3 +60,5 @@ parse_csv_files(search_word, new_search_word, newer_search_word, directory)
 
 # Call the parse_csv_files function with the search word parameters
 # parse_csv_files("papa", "money", "average", "/Users/thetrekman/Documents/Code/csv-parser/Docs")
+
+#Reads the list of files in the specified directory, reads each .csv file, searches for rows that contain the search word, and then checks if the row also contains the new search word. If it does, the row is added to an array. After all files have been processed, a new .csv file is created and the rows that contain all the search words are written to it.
